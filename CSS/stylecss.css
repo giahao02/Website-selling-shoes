@@ -1,0 +1,162 @@
+.body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sanpham {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 35px;
+}
+
+.trang {
+    margin-left: 700px;
+    font-size: 55px;
+}
+
+.menu {
+    font-size: 55px;
+    margin-top: 25px;
+}
+
+.a12 {
+    font-size: 55pt;
+}
+
+.header {
+    background-color: aqua;
+    height: 150px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    border-width: 3px;
+    border-style: solid;
+}
+
+
+/* .menu1 {
+    border-width: 3px;
+    border-style: solid;
+}
+
+.menu2 {
+    border-width: 3px;
+    border-style: solid;
+} */
+
+.b1 {
+    margin-left: 55px;
+}
+
+footer {
+    background-color: aqua;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.hide.active {
+    display: none;
+}
+
+.hide {
+    display: block;
+}
+
+.menu_header {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 755pt;
+}
+
+h1 {
+    margin: 10pt;
+    font-size: 15pt;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1,
+label {
+    color: DodgerBlue;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.signupbtn {
+    float: left;
+    width: 100%;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
